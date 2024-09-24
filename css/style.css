@@ -40,7 +40,7 @@ body {
 
 /* HEADER */
 header {
-	background-color: rgb(208, 135, 0);
+	background-color: #ff6900;
 }
 
 header .container {
@@ -72,6 +72,10 @@ header .logo {
 header i {
 	color: white;
 	margin-left: 20px;
+}
+
+header i:hover {
+	color: #c6c6c6;
 }
 
 /* MAIN */
@@ -139,11 +143,11 @@ main .description h3 span {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border-radius: 10px;
 }
 
 .heart-container span {
-	font-size: 3rem;
+	font-size: 2rem;
+	color: white;
 }
 .heart-container:hover span {
 	color: red;
@@ -173,6 +177,7 @@ footer .container {
 footer .agency ul {
 	display: flex;
 	gap: 25px;
+	margin-top: 20px;
 }
 
 .agency h2 {
