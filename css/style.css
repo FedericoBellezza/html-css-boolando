@@ -4,6 +4,24 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	/* border: 1px dashed black; */
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+ul {
+	list-style: none;
 }
 
 /* # UTILS */
@@ -11,6 +29,150 @@
 .container {
 	margin: 0 auto;
 	padding: 0 10px;
-	width: 1000px;
+	width: 1400px;
 	max-width: 100%;
+	padding-block: 0.8rem;
+}
+
+body {
+	background-color: #c6c6c6;
+}
+
+/* HEADER */
+header {
+	background-color: rgb(208, 135, 0);
+}
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+
+header nav ul {
+	display: flex;
+	list-style: none;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: white;
+	margin-right: 2rem;
+}
+
+header .logo {
+	height: 30px;
+}
+
+header i {
+	color: white;
+	margin-left: 20px;
+}
+
+/* MAIN */
+.card-container {
+	width: 30%;
+	position: relative;
+}
+
+main .description h4 {
+	font-weight: 400;
+	line-height: 1rem;
+}
+
+main .description h3 {
+	color: red;
+	line-height: 1rem;
+}
+
+main .description h3 span {
+	text-decoration: line-through;
+	color: black;
+	font-weight: 400;
+	line-height: 1rem;
+}
+
+.card-container img:first-child {
+	position: absolute;
+}
+
+.card-container:hover .back {
+	opacity: 0;
+}
+
+.back {
+	transition: all 0.4s;
+}
+
+.discount-container {
+	position: absolute;
+	bottom: 25%;
+}
+
+.discount-container .discount-label {
+	background-color: red;
+	color: white;
+	padding: 5px;
+}
+.discount-container .quality-label {
+	background-color: green;
+	color: white;
+	padding: 5px 15px;
+}
+
+.heart-container {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	background-color: #c6c6c6;
+	top: 10px;
+	right: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+}
+
+.heart-container span {
+	font-size: 3rem;
+}
+.heart-container:hover span {
+	color: red;
+	cursor: pointer;
+}
+
+main .container {
+	margin-block: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 50px;
+}
+
+/* FOOTER */
+footer {
+	background-color: #151515;
+	color: white;
+	padding: 50px;
+}
+
+footer .container {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .agency ul {
+	display: flex;
+	gap: 25px;
+}
+
+.agency h2 {
+	width: 100%;
+}
+
+footer .social-container i {
+	font-size: 1.5rem;
+	margin-right: 10px;
+	margin-top: 10px;
 }
