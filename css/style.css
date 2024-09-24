@@ -34,10 +34,6 @@ ul {
 	padding-block: 0.8rem;
 }
 
-body {
-	background-color: #c6c6c6;
-}
-
 /* HEADER */
 header {
 	background-color: #ff6900;
@@ -61,10 +57,6 @@ header nav ul li a {
 	margin-right: 2rem;
 }
 
-header nav ul li a:hover {
-	border-bottom: 1px solid currentColor;
-}
-
 header .logo {
 	height: 30px;
 }
@@ -72,10 +64,6 @@ header .logo {
 header i {
 	color: white;
 	margin-left: 20px;
-}
-
-header i:hover {
-	color: #c6c6c6;
 }
 
 /* MAIN */
@@ -113,10 +101,6 @@ main .description h3 span {
 	cursor: pointer;
 }
 
-.back {
-	transition: all 0.4s;
-}
-
 .discount-container {
 	position: absolute;
 	bottom: 25%;
@@ -137,17 +121,16 @@ main .description h3 span {
 	height: 50px;
 	width: 50px;
 	position: absolute;
-	background-color: #c6c6c6;
 	top: 10px;
-	right: 10px;
+	right: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .heart-container span {
-	font-size: 2rem;
-	color: white;
+	font-size: 3rem;
+	color: #151515;
 }
 .heart-container:hover span {
 	color: red;
