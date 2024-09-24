@@ -126,6 +126,7 @@ main .description h3 span {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: white;
 }
 
 .heart-container span {
